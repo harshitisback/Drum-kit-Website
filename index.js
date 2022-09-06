@@ -53,6 +53,8 @@ for (var i = 0; i < lengthOfButtons; i++) {
 
 }
 
+// adding event listner
+
 document.addEventListener("keydown", function(event) {
 
         checkSwitch(event.key);
